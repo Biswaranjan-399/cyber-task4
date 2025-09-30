@@ -19,8 +19,8 @@ Configure and test basic firewall rules to allow or block traffic on Windows Fir
 
 ### 1. Checked Current Firewall Rules
 On Windows:
-```powershell
-netsh advfirewall firewall show rule name=all```
+powershell
+netsh advfirewall firewall show rule name=all
 
 
 ### 2. Blocked Inbound Traffic on Port 23 (Telnet)
